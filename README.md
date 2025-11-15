@@ -1,51 +1,79 @@
-# Solas Eatz
-**Empowering Local Restaurants Through Community & Smart Rewards**
-Solas Eatz is a hyperlocal discovery and loyalty platform designed for **family-owned restaurants** in Ireland. The app combines **instant Solana payments**, **on-chain loyalty rewards**, and **community-driven social interactions** to help restaurants retain customers, increase footfall, and keep more profits.
+# Project Solas: Lighting Up Ireland’s Local Economy
 
-## 🌟 Features
-### For Customers
-- **Hassle-free Wallet Login:** Connect any Solana wallet to get started instantly.
-- **Discover Nearby Restaurants:** Explore cafes and food stores with filters for menu, offers, and amenities.
-- **Community Feed:** See posts, reviews, and recommendations from other users. Like, share, and follow favorites.
-- **Earn Rewards:** Play mini-games while waiting and earn on-chain Solas Points.
-- **Instant Payments:** Pay bills directly with Solana Pay with zero fees.
-- **Coupons & Offers:** Access marketplace deals, redeem rewards, and track loyalty points.
-- **Profile & Settings:** View activity, loyalty status, and customize preferences.
+Project Solas is an initiative to stimulate and sustain local economic activity across Irish towns and rural communities by combining targeted lighting improvements, community engagement, data-driven planning, and workforce development. "Solas" (Irish for "light") reflects the project's dual ambition: physical illumination of public spaces and catalyzing local economic resilience.
 
-### For Restaurants
-- **Merchant Dashboard:** Track orders, revenue, customer engagement, and loyalty rewards.
-- **Direct Customer Relationships:** Engage diners directly without third-party commissions.
-- **Custom Offers & Coupons:** Create and manage promotions easily.
-- **Community Mentions:** Reward loyal customers and boost engagement.
+## Vision
+A network of safe, attractive, energy-efficient local centres that support small businesses, tourism, and community life — improving safety, night‑time footfall, and local pride while reducing energy use and costs.
 
-## ⚡ Technology Stack
-- **Frontend:** React Native (Mobile App), React.js (Web)
-- **Backend:** Node.js, Express
-- **Blockchain:** Solana Pay integration, SPL token for loyalty points
-- **Database:** PostgreSQL / MongoDB
-- **APIs:** RESTful API for app-server communication
-- **Security:** Wallet-based authentication, end-to-end encrypted transactions
+## Goals
+- Improve public lighting to enhance safety and accessibility.
+- Increase evening footfall for local retail, hospitality, and events.
+- Support local businesses with micro‑grants, training, and marketing.
+- Reduce carbon footprint through efficient lighting and controls.
+- Measure social and economic impact with transparent metrics.
 
-## 📈 Market Opportunity
-- Ireland’s dining market: **€6.5 billion**
-- Target: **5,000+ family-owned cafes and restaurants**
-- Problem solved: Reduces 25–30% commission loss, increases customer retention, and builds a direct loyalty ecosystem.
+## Key Components
+- Public lighting upgrades (LED, smart controls, sensors)
+- Place activation programs (markets, events, popups)
+- Business support (training, grants, digital tools)
+- Community engagement and governance
+- Data platform for monitoring usage, footfall, energy, and impact
 
-## 🛠 Usage
-- Customers can discover restaurants, connect wallets, and pay instantly.
-- Restaurants can login to dashboard, add offers, track loyalty points, and manage engagement.
+## Impact Metrics
+- Change in night‑time footfall (before/after)
+- Visitor spend uplift for local businesses
+- Crime and safety indicators (reported incidents)
+- Energy consumption and CO2 reductions
+- Number of businesses and jobs supported
+- Community satisfaction surveys
 
-## 📊 Roadmap
-- Multi-city rollout in Ireland
-- Expand to cross-border Solana payments
-- Interactive in-app mini-games for enhanced engagement
-- AI-powered recommendation system
+## Architecture Overview
+- Edge: Smart luminaires, motion sensors, environmental sensors
+- Connectivity: Low-power wide-area network (LPWAN), cellular, or wired
+- Backend: Cloud data ingestion, time-series DB, analytics
+- Frontend: Dashboard for councils, business associations, and community groups
+- APIs for third-party integrations (mobility, tourism platforms)
 
-## 🤝 Contributing
-- We welcome contributions! Please submit PRs for:
-- Bug fixes
-- Feature improvements
-- UI/UX enhancements
+## Data Sources & Privacy
+- Aggregated footfall sensors, energy meters, incident reports, and voluntary surveys.
+- Privacy-first design: anonymised, aggregated data; no personal tracking without consent.
+- Compliant with GDPR and local regulations.
 
-🙌 About
-Solas Eatz is built by a team of passionate techies dedicated to helping family-owned restaurants thrive in a digital-first world using Web3 technology and blockchain innovation.
+## Getting Started (for pilot deployments)
+1. Conduct site assessment and stakeholder mapping.
+2. Define pilot objectives, KPIs, and success criteria.
+3. Deploy lighting and sensors with minimal disruption.
+4. Launch place activation and business support activities.
+5. Monitor metrics and iterate.
+
+## Suggested Tech Stack
+- Hardware: LED luminaires, PIR/IR motion sensors, ambient light sensors
+- Connectivity: LoRaWAN / NB-IoT / 4G fallback
+- Backend: Python/Node services, PostgreSQL/time-series DB, cloud hosting (Azure/AWS/GCP)
+- Frontend: React or Vue dashboards, mobile friendly
+- Ops: CI/CD, monitoring, automated reporting
+
+## Funding & Partnerships
+Recommended mix: local authority funding, national/regional development grants, private sector sponsorship, and community crowdfunding. Partner with local business associations, chambers of commerce, energy providers, and tourism bodies.
+
+## Governance & Community
+- Local steering group with representatives from community, business, and council.
+- Transparent budgets, public reporting, and open feedback channels.
+- Inclusive design to ensure accessibility and night‑time safety for all.
+
+## Evaluation & Scale
+- Use phased evaluation: pilot (3–6 months), refine, scale to additional towns.
+- Publish outcomes and playbooks to enable replication across regions.
+
+## Contribution
+Contributions are welcome from planners, engineers, community organisations, and researchers. Share case studies, data models, and technical improvements.
+
+## License
+Open by default for the project playbook and non-sensitive data. Specific software components or hardware designs may use permissive OSS licenses (e.g., MIT/Apache 2.0) — see individual component repositories for license details.
+
+## Contact
+Project coordination: [contact@projectsolas.ie] (placeholder)  
+For partnerships and pilots: local council innovation teams or regional development agencies.
+
+---
+For implementation repositories, deployment manifests, or a pilot playbook, create separate files in this project with technical specs, procurement guidance, and monitoring recipes.
